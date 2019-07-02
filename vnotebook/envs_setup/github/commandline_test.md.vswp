@@ -1,0 +1,15 @@
+vnote_backup_file_826537664 /home/dylan/Documents/vnote_notebooks/vnotebook/envs_setup/github/commandline_test.md
+# repo init test
+https://github.com/DylanHex/repo_init_test.git
+## …or create a new repository on the command line
+echo "# repo_init_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DylanHex/repo_init_test.git
+git push -u origin master
+## …or push an existing repository from the command line
+git remote add origin https://github.com/DylanHex/repo_init_test.git
+git push -u origin master
+## …or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
